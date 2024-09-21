@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 06</title>
+</head>
+<body>
+    <table align="center" width="500px">
+        <caption style="width: 190px;">Thông tin danh mục chất liệu</caption>
+        <tr>
+            <th align="left">
+                <label for="title">Tên (Title)</label>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" name="title" id="title" size="38px">
+            </td>
+        </tr>
+        <tr>
+            <th align="left">
+                <label for="keyword">Từ khóa SEO</label>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" name="keyword" id="keyword" size="38px">
+            </td>
+        </tr>
+        <tr>
+            <th align="left">
+                <label for="des">Mô tả SEO</label>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" name="des" id="des" size="38px">
+            </td>
+        </tr>
+        <tr>
+            <th align="left">
+                <label for="note">Ghi chú</label>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <textarea name="note" id="note" style="width: 299px; height: 50px;"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th align="left" style="width: 47px;">Trạng thái</th>
+            <td align="left" style="width: 200px;">
+                <input type="radio" name="status" id="active" checked>
+                <label for="active">Hoạt động</label>
+                <input type="radio" name="status" id="locked">
+                <label for="locked">Đang khóa</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr style="position: absolute; width: 304px; top: 245px; margin-top: 35px;"></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <button type="reset">Nhập lại</button>
+                <button type="reset">Ghi lại</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
